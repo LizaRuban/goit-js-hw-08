@@ -71,7 +71,7 @@ const makeGalleryItem = ({ preview, original, description }) => {
   galleryItemEl.className = 'gallery-item';
 
   const galleryLinkEl = document.createElement('a');
-  galleryLinkEl.href = preview;
+  galleryLinkEl.href = original;
   galleryLinkEl.className = 'gallery-link';
 
   const imageEl = document.createElement('img');
